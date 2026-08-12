@@ -81,11 +81,11 @@ deploy-apps:
 		cd $$curr; \
 	done
 
-bdapps: build-apps deploy-apps
+bdnetwork: build-network deploy-network
 
 bdinfra: build-infra deploy-infra
 
-bdnetwork: build-network deploy-network
+bdapps: build-apps deploy-apps
 
 cleanup:
 	k3d cluster stop observability
