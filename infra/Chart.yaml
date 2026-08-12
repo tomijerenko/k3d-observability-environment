@@ -1,0 +1,7 @@
+apiVersion: v2
+name: observability
+version: 1
+dependencies:
+  - name: opentelemetry-collector
+    version: 0.169.0
+    repository: oci://ghcr.io/open-telemetry/opentelemetry-helm-charts

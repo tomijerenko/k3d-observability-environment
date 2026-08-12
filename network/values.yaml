@@ -1,0 +1,12 @@
+cilium:
+  envoy:
+    enabled: false
+  ipam:
+    mode: kubernetes
+  operator:
+    replicas: 1
+  hubble:
+    ui:
+      enabled: true
+    relay:
+      enabled: true
